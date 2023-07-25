@@ -496,9 +496,38 @@ body {
     }
 
     .info-txt p {
-        
+        font-size: 16px;
+    }
+
+    .btn-1 {
+        font-size: 16px;
+    }
+
+    .Horarios {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .Horarios-info h2 {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .Horarios-txt {
+        flex-direction: column;
     }
     
+    .Sociais {
+        justify-content: center;
+    }
+
+    .social img {
+        margin: 8px 0 0 0;
+    }
+
+    .footer { 
+        
+    }
 }
 
 
