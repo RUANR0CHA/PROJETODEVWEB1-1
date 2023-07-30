@@ -194,6 +194,8 @@ body {
     cursor: pointer;
     color: #A7A7A7;
     font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
     transition: background ease 0.2s;
 }
 
@@ -211,6 +213,10 @@ body {
 .guia input[type="radio"]:checked + label {
     border-bottom: 2px solid #DB241B;
     color: #FFFFFF;
+}
+
+.guia input[type="radio"]:checked + label + .guia{
+    display: block;
 }
 
 .Produtos {
@@ -535,6 +541,6 @@ body {
         margin: 25px 0px 10px 0px;
     }
 
-    
+
 
 }
